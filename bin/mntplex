@@ -1,4 +1,2 @@
 #!/bin/bash
 sshfs -o nonempty plex:/mnt/PlexData /media/plex
-#curlftpfs -o umask=0777,uid=1000,gid=1000,allow_other ftp://admin:admin@10.10.0.1 /media/volume1
-#sshfs -o nonempty chewbacca:/share02/DATA /media/share02
